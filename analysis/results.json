@@ -1,0 +1,22 @@
+{
+  "headcount": 210,
+  "total_base_payroll": 25451417.0,
+  "merit_pool_3_5pct": 890800.0,
+  "promo_pool": 150000,
+  "total_pool": 1040800.0,
+  "company_group_compa_ratio": 1.008,
+  "raw_compa_ratio_by_gender": {
+    "Female": 0.967,
+    "Male": 1.03
+  },
+  "adjusted_gender_gap_pct": 6.5,
+  "gender_gap_tstat": 3.96,
+  "gender_gap_pvalue": 0.0001,
+  "ethnicity_significant_gaps": {},
+  "red_circle_above_max": 5,
+  "green_circle_below_min": 23,
+  "outside_defined_bands": 1,
+  "by_design_band_overlaps": 36,
+  "same_track_manager_inversion": 3,
+  "below_min_remediation_cost": 164587.0
+}

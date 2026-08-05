@@ -1,0 +1,359 @@
+{
+  "results": {
+    "headcount": 210,
+    "total_base_payroll": 25451417.0,
+    "merit_pool_3_5pct": 890800.0,
+    "promo_pool": 150000,
+    "total_pool": 1040800.0,
+    "company_group_compa_ratio": 1.008,
+    "raw_compa_ratio_by_gender": {
+      "Female": 0.967,
+      "Male": 1.03
+    },
+    "adjusted_gender_gap_pct": 6.5,
+    "gender_gap_tstat": 3.96,
+    "gender_gap_pvalue": 0.0001,
+    "ethnicity_significant_gaps": {},
+    "red_circle_above_max": 5,
+    "green_circle_below_min": 23,
+    "outside_defined_bands": 1,
+    "by_design_band_overlaps": 36,
+    "same_track_manager_inversion": 3,
+    "below_min_remediation_cost": 164587.0
+  },
+  "distribution": {
+    "<0.85": 14,
+    "0.85-0.90": 5,
+    "0.90-0.95": 12,
+    "0.95-1.00": 38,
+    "1.00-1.05": 61,
+    "1.05-1.10": 39,
+    "1.10-1.15": 23,
+    ">1.15": 7
+  },
+  "compa_by_level": {
+    "IC1": 1.002,
+    "IC2": 1.018,
+    "IC3": 0.982,
+    "IC4": 1.034,
+    "IC5": 1.025,
+    "M1": 1.014,
+    "M2": 1.003,
+    "M3": 0.996
+  },
+  "count_by_level": {
+    "IC1": 29,
+    "IC2": 26,
+    "IC3": 30,
+    "IC4": 22,
+    "IC5": 9,
+    "M1": 48,
+    "M2": 32,
+    "M3": 14
+  },
+  "compa_by_gender": {
+    "Female": 0.967,
+    "Male": 1.03
+  },
+  "compa_by_ethnicity": {
+    "Asian": 0.988,
+    "Black or African American": 1.038,
+    "Hispanic or Latino": 1.015,
+    "Native Hawaiian/PI": 1.061,
+    "Two or More Races": 1.025,
+    "White": 1.004
+  },
+  "eth_counts": {
+    "Asian": 34,
+    "Black or African American": 18,
+    "Hispanic or Latino": 28,
+    "Native Hawaiian/PI": 2,
+    "Two or More Races": 13,
+    "White": 115
+  },
+  "by_dept": {
+    "Customer Success": {
+      "headcount": 30,
+      "avg_compa": 1.005
+    },
+    "Engineering": {
+      "headcount": 67,
+      "avg_compa": 1.013
+    },
+    "Finance": {
+      "headcount": 28,
+      "avg_compa": 1.014
+    },
+    "HR": {
+      "headcount": 27,
+      "avg_compa": 1.015
+    },
+    "Marketing": {
+      "headcount": 26,
+      "avg_compa": 0.975
+    },
+    "Sales": {
+      "headcount": 32,
+      "avg_compa": 1.014
+    }
+  },
+  "red_circle": [
+    {
+      "employee_id": "E-1068",
+      "department": "Marketing",
+      "level": "IC3",
+      "base_salary": 111948.0,
+      "band_max": 103676.0,
+      "compa_ratio": 1.25
+    },
+    {
+      "employee_id": "E-1092",
+      "department": "Sales",
+      "level": "IC4",
+      "base_salary": 152742.0,
+      "band_max": 143724.0,
+      "compa_ratio": 1.23
+    },
+    {
+      "employee_id": "E-1146",
+      "department": "Finance",
+      "level": "M1",
+      "base_salary": 161250.0,
+      "band_max": 158479.0,
+      "compa_ratio": 1.18
+    },
+    {
+      "employee_id": "E-1174",
+      "department": "Sales",
+      "level": "IC3",
+      "base_salary": 153440.0,
+      "band_max": 142652.0,
+      "compa_ratio": 1.25
+    },
+    {
+      "employee_id": "E-1179",
+      "department": "Engineering",
+      "level": "M1",
+      "base_salary": 152994.0,
+      "band_max": 150568.0,
+      "compa_ratio": 1.18
+    }
+  ],
+  "green_circle": [
+    {
+      "employee_id": "E-1010",
+      "department": "Engineering",
+      "level": "M2",
+      "base_salary": 161872.0,
+      "band_min": 166878.0,
+      "compa_ratio": 0.81
+    },
+    {
+      "employee_id": "E-1014",
+      "department": "Marketing",
+      "level": "IC1",
+      "base_salary": 43021.0,
+      "band_min": 48486.0,
+      "compa_ratio": 0.75
+    },
+    {
+      "employee_id": "E-1015",
+      "department": "Engineering",
+      "level": "IC5",
+      "base_salary": 156813.0,
+      "band_min": 165283.0,
+      "compa_ratio": 0.8
+    },
+    {
+      "employee_id": "E-1024",
+      "department": "Engineering",
+      "level": "IC3",
+      "base_salary": 85457.0,
+      "band_min": 90397.0,
+      "compa_ratio": 0.79
+    },
+    {
+      "employee_id": "E-1044",
+      "department": "Sales",
+      "level": "M1",
+      "base_salary": 89620.0,
+      "band_min": 92169.0,
+      "compa_ratio": 0.82
+    },
+    {
+      "employee_id": "E-1085",
+      "department": "Engineering",
+      "level": "IC1",
+      "base_salary": 65976.0,
+      "band_min": 74974.0,
+      "compa_ratio": 0.74
+    },
+    {
+      "employee_id": "E-1089",
+      "department": "Engineering",
+      "level": "IC1",
+      "base_salary": 61490.0,
+      "band_min": 70673.0,
+      "compa_ratio": 0.73
+    },
+    {
+      "employee_id": "E-1096",
+      "department": "Engineering",
+      "level": "IC1",
+      "base_salary": 71225.0,
+      "band_min": 74974.0,
+      "compa_ratio": 0.8
+    },
+    {
+      "employee_id": "E-1098",
+      "department": "Marketing",
+      "level": "IC3",
+      "base_salary": 71271.0,
+      "band_min": 80608.0,
+      "compa_ratio": 0.74
+    },
+    {
+      "employee_id": "E-1104",
+      "department": "Customer Success",
+      "level": "IC2",
+      "base_salary": 52770.0,
+      "band_min": 59132.0,
+      "compa_ratio": 0.75
+    },
+    {
+      "employee_id": "E-1106",
+      "department": "Customer Success",
+      "level": "IC1",
+      "base_salary": 51412.0,
+      "band_min": 56897.0,
+      "compa_ratio": 0.76
+    },
+    {
+      "employee_id": "E-1108",
+      "department": "HR",
+      "level": "M1",
+      "base_salary": 74064.0,
+      "band_min": 86708.0,
+      "compa_ratio": 0.72
+    },
+    {
+      "employee_id": "E-1120",
+      "department": "Sales",
+      "level": "M1",
+      "base_salary": 81027.0,
+      "band_min": 92169.0,
+      "compa_ratio": 0.74
+    },
+    {
+      "employee_id": "E-1122",
+      "department": "Engineering",
+      "level": "M3",
+      "base_salary": 159120.0,
+      "band_min": 173896.0,
+      "compa_ratio": 0.77
+    },
+    {
+      "employee_id": "E-1129",
+      "department": "Sales",
+      "level": "M2",
+      "base_salary": 120147.0,
+      "band_min": 124150.0,
+      "compa_ratio": 0.81
+    },
+    {
+      "employee_id": "E-1140",
+      "department": "Marketing",
+      "level": "IC3",
+      "base_salary": 85090.0,
+      "band_min": 96413.0,
+      "compa_ratio": 0.74
+    },
+    {
+      "employee_id": "E-1141",
+      "department": "Marketing",
+      "level": "IC3",
+      "base_salary": 71194.0,
+      "band_min": 75076.0,
+      "compa_ratio": 0.8
+    },
+    {
+      "employee_id": "E-1150",
+      "department": "HR",
+      "level": "IC3",
+      "base_salary": 69104.0,
+      "band_min": 74189.0,
+      "compa_ratio": 0.78
+    },
+    {
+      "employee_id": "E-1182",
+      "department": "Sales",
+      "level": "IC3",
+      "base_salary": 79033.0,
+      "band_min": 84672.0,
+      "compa_ratio": 0.78
+    },
+    {
+      "employee_id": "E-1183",
+      "department": "Finance",
+      "level": "IC4",
+      "base_salary": 106991.0,
+      "band_min": 109191.0,
+      "compa_ratio": 0.82
+    },
+    {
+      "employee_id": "E-1184",
+      "department": "Marketing",
+      "level": "IC4",
+      "base_salary": 93298.0,
+      "band_min": 97138.0,
+      "compa_ratio": 0.81
+    },
+    {
+      "employee_id": "E-1191",
+      "department": "Finance",
+      "level": "M2",
+      "base_salary": 109907.0,
+      "band_min": 118934.0,
+      "compa_ratio": 0.78
+    },
+    {
+      "employee_id": "E-1203",
+      "department": "Customer Success",
+      "level": "M1",
+      "base_salary": 78054.0,
+      "band_min": 89536.0,
+      "compa_ratio": 0.73
+    }
+  ],
+  "outside_bands": [
+    {
+      "employee_id": "E-1134",
+      "department": "Engineering",
+      "level": "IC5",
+      "base_salary": 173490.0
+    }
+  ],
+  "same_track_inversion": [
+    {
+      "employee_id": "E-1010",
+      "department": "Engineering",
+      "level": "M2",
+      "base_salary": 161872.0,
+      "band_min": 166878.0
+    },
+    {
+      "employee_id": "E-1129",
+      "department": "Sales",
+      "level": "M2",
+      "base_salary": 120147.0,
+      "band_min": 124150.0
+    },
+    {
+      "employee_id": "E-1191",
+      "department": "Finance",
+      "level": "M2",
+      "base_salary": 109907.0,
+      "band_min": 118934.0
+    }
+  ]
+}
