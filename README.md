@@ -53,3 +53,5 @@ The company-wide compa-ratio looks healthy at 1.008. But controlling for level, 
 ## Notes on the data
 
 All employee data is synthetically generated for demonstration purposes — no real company or individual is represented. The pay gap and edge cases (red/green-circle, band inversion, out-of-band employee) are deliberately injected so the analysis has something real to detect.
+
+View the live dashboard here -> https://codesandbox.io/p/sandbox/l43fht
